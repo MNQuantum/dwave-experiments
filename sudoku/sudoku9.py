@@ -15,8 +15,8 @@ import dwave_networkx as dnx
 from hybrid.reference.kerberos import KerberosSampler
 
 def adjacent(i, j):
-    return i != j and i // 9 == j // 9 or i % 9 == j % 9 or (
-        (i // 27 == j // 27) and (i % 9 // 3 == j % 9 // 3))
+    return i != j and (i // 9 == j // 9 or i % 9 == j % 9 or (
+        (i // 27 == j // 27) and (i % 9 // 3 == j % 9 // 3)))
 
 def make_sudoku_graph(clues):
     G = nx.Graph()
