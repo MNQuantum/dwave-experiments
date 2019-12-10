@@ -1,0 +1,4 @@
+.vscode
+ocean
+*.code-workspace
+*.pyc
