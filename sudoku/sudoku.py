@@ -41,7 +41,7 @@ def make_clues(board):
 
 def disp(solution):
     for i in range(0, 81, 9):
-        print(solution[i: i+9])
+        print(*solution[i: i+9])
 
 def solve(grid, use_dwave=False, max_iter=10, convergence=3):
     clues = make_clues(grid)
