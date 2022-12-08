@@ -16,7 +16,7 @@ homebase==1.0.1
 idna==2.8
 minorminer==0.1.9
 networkx==2.4
-numpy==1.15.4
+numpy==1.22.0
 ortools==6.7.4973
 penaltymodel==0.16.2
 penaltymodel-cache==0.4.0
