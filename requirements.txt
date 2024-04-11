@@ -13,7 +13,7 @@ dwave-system==0.8.0
 dwave-tabu==0.2.1
 dwavebinarycsp==0.0.12
 homebase==1.0.1
-idna==2.8
+idna==3.7
 minorminer==0.1.9
 networkx==2.4
 numpy==1.22.0
