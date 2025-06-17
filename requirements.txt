@@ -23,7 +23,7 @@ penaltymodel-cache==0.4.0
 penaltymodel-lp==0.1.0
 penaltymodel-mip==0.2.1
 plucky==0.4.3
-protobuf==3.18.3
+protobuf==4.25.8
 pyqubo==0.4.0
 PySocks==1.7.1
 python-dateutil==2.8.1
